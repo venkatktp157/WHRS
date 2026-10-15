@@ -14,7 +14,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("⚓ Waste Heat recovery System- ROI Calculator")
+st.title("⚓ Waste Heat Recovery System- ROI Calculator")
 st.markdown("""
 Upload your WHRS Excel log file or CSV containing raw input columns. 
 The application automatically processes all metrics, applies multi-type filters, and provides customizable time-series and correlation visualizations.
