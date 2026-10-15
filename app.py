@@ -512,7 +512,7 @@ if uploaded_file is not None:
             key="corr_color_select",
         )
 
-      show_trendline = st.checkbox("Show OLS Trendline", value=True)
+      show_trendline = st.checkbox("Show OLS Trendline", value=False)
 
       if selected_x and selected_y:
         color_arg = color_option if color_option != "None" else None
